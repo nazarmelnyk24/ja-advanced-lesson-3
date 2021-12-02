@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, button, input[type='button'] {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+
+    app-root {
+        width: 80%;
+        max-width: 1200px;
+    }
+}
+
+.btn {
+    border: none;
+    background: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    outline: none;
+}
